@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/435d54f2/img/favicon_96x96.png" sizes="96x96">
+    <title>YouTube</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="icon-button">
+            <div class="text-center"></div>
+            <button id="button" class="button" onclick="toggle()">≡</button>
+            <img class="ytblogo" src="icons&imgs/pngfind.com-youtube-subscribe-png-2981353.png" alt="" srcset="">
+        </div>
+        <div class="searchBar">
+            <form role="searchbox" class="searchField">
+                <input placeholder="Search.." type="text">
+                <button id="search" role="search" type="submit" class="search"></button>
+                <button role="search" id = "voice"type="button" class="voice-search"></button>
+            </form>
+        </div>
+        <div class="signIn-apps">
+            <button type="menu" role="listbox" class="youtube-apps"><img src="" alt="" srcset=""></button>
+            <button type="menu" role="listbox" class="settings"></button>
+            <button type="button" class="signIn" type="submit">SIGN IN</button>
+        </div>
+    </div>
+    <!-- SIDEBAR -->
+    <!-- Modal -->
+    <div id="sidebar" class="sidebar">
+        <div class="container content">
+            <div class="content-header">
+                <button id="sidebar-button" onclick="toggle()" class="button">≡</button>
+                <img class="ytblogo" src="icons&imgs/pngfind.com-youtube-subscribe-png-2981353.png" alt="YOUTUBE LOGO">
+            </div>
+            <menu type="toolbar" class="content"></menu>
+        </div>
+    </div>
+    <!-- SIDEBAR -->
+    <div class="container">
+        <div class="video">
+            <video src=""></video>
+            <div class="vid-info">
+                <div class="convects">
+                    <h6 class="hashtags"></h6>
+                    <h4 class="videoName"></h4>
+                </div>
+                <div class="viewersInfo">
+                    <label for="views"></label>
+                    <div class="likes">
+                        <h4 id="totalLikes"></h4>
+                    </div>
+                    <div class="dislike">
+                        <h4>DISLIKE</h4>
+                    </div>
+                    <div class="share">
+                        <h4>SHARE</h4>
+                    </div>
+                    <div class="save">
+                        <h4>SAVE</h4>
+                    </div>
+                    <menu>
+                    </menu>
+                </div>
+                <div class="discrib_channel">
+                    <div class="channel">
+                        <div class="channel-label">
+                            <img src="" alt="" srcset="">
+                            <h1 class="channel-name"></h1>
+                            <h6 id="subscribers"></h6>
+                        </div>
+                        <button id="SUBSCRIBE"></button>
+                    </div>
+                    <div class="discribt"></div>
+                </div>
+            </div>
+        </div>
+        <div class="thumbnails"></div>
+        <div class="comments">
+
+        </div>
+    </div>
+</body>
+
+</html>
